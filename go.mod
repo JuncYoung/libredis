@@ -1,4 +1,4 @@
-module libredis
+module github.com/JuncYoung/libredis
 
 go 1.17
 
