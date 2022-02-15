@@ -1,0 +1,13 @@
+// Package  libredis
+package libredis
+
+const (
+	REDIS_DEPLOY_KIND_DOUBLE_MASTER    = "-1"
+	REDIS_DEPLOY_KIND_SINGLE           = "1"
+	REDIS_DEPLOY_KIND_SENTINEL         = "2"
+	REDIS_DEPLOY_KIND_OFFICIAL_CLUSTER = "3"
+
+	REDIS_KIND_SINGLE           = 1
+	REDIS_KIND_SENTINEL         = 2
+	REDIS_KIND_OFFICIAL_CLUSTER = 3
+)
